@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "jsx": "preserve",
+    "keyofStringsOnly": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "baseUrl": "."
+  },
+  "exclude": ["build/*"],
+  "include": ["./*", "./**/*"],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": true
+  }
+}
